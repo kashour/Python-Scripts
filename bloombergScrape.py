@@ -13,6 +13,10 @@ print price
 
 
 
+
+
+
+
 quote_page = 'https://www.bloomberg.com/quote/SCAASEQ:AB'
 page = urllib2.urlopen(quote_page)
 soup = BeautifulSoup(page, 'html.parser')
